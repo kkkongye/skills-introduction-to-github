@@ -211,41 +211,8 @@ div#header a#logo:link, div#header a#logo:visited
 div#header a#logo:hover
 		{
 		background: transparent url(./bg.png) 0 -250px no-repeat;
-		}
+		} 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) { 
-
-    div#header a#logo
-            {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            }
-
-    div#header a#logo
-            {
-            text-indent: -9999px;
-            overflow:hidden;
-            float:left;
-            }
-
-    div#header a#logo:link, div#header a#logo:visited
-            {
-            display: block;	
-            width: 372px;
-            height: 90px;
-            background : transparent url("./bg-retina.png") 0 -150px no-repeat;
-            background-size: auto 900px;
-            }
-
-    div#header a#logo:hover
-            {
-            background: transparent url("./bg-retina.png") 0 -250px no-repeat;
-            background-size: auto 900px;
-            }
-
-}
 
 
 div#header_index a, div#header_index h1
@@ -277,39 +244,6 @@ div#header_index a:hover
 
 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) {
-
-    div#header_index a, div#header_index h1
-            {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            }
-
-    div#header_index a, div#header_index h1
-            {
-            text-indent: -9999px;
-            overflow:hidden;
-            float:left;
-            }
-
-    div#header_index a:link, div#header_index a:visited, div#header_index h1
-            {
-            display: block;	
-            width: 500px;
-            height: 90px;
-            background : transparent url("./bg-retina.png") 0 -150px no-repeat;
-            background-size: auto 900px;
-            }
-
-    div#header_index a:hover
-            {
-            background: transparent url("./bg-retina.png") 0 -250px no-repeat;
-            background-size: auto 900px;
-            }
-
-}
 
 
 /* ----------------------------------- search form ----------------------------------- */
@@ -566,36 +500,7 @@ body.reference #r		    {background: transparent url(/ui2019/bg.png) -1040px -48p
 
 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) {
 
-div#navfirst ul#menu  {background: transparent url("/ui2019/bg-retina.png") top left no-repeat; background-size: auto 900px;}
-
-#h	{width: 166px; left: 0px;}
-#b	{width: 191px; left: 166px;}
-#s	{width: 175px; left: 357px;}
-#p 	{width: 198px; left: 532px;}
-#x	{width: 113px; left: 730px;}
-#w	{width: 197px; left: 843px;}
-#r	{width: 170px; left: 1040px;}
-
-#h a:hover	{background:  url("./bg.png") 0 -48px no-repeat; background-size: auto 900px;}
-#b a:hover	{background: transparent url("/ui2019/bg-retina.png") -166px -48px no-repeat; background-size: auto 900px;}
-#s a:hover	{background: transparent url("/ui2019/bg-retina.png") -357px -48px no-repeat; background-size: auto 900px;}
-#p a:hover	{background: transparent url("/ui2019/bg-retina.png") -532px -48px no-repeat; background-size: auto 900px;}
-#x a:hover	{background: transparent url("/ui2019/bg-retina.png") -730px -48px no-repeat; background-size: auto 900px;}
-#w a:hover	{background: transparent url("/ui2019/bg-retina.png") -843px -48px no-repeat; background-size: auto 900px;}
-#r a:hover	{background: transparent url("/ui2019/bg-retina.png") -1040px -48px no-repeat; background-size: auto 900px;}
-
-body.html #h				{background:  url("./bg.png") 0 -48px no-repeat; background-size: auto 900px;}
-body.browserscripting #b    {background: transparent url("/ui2019/bg-retina.png") -166px -48px no-repeat; background-size: auto 900px;}
-body.serverscripting #s     {background: transparent url("/ui2019/bg-retina.png") -357px -48px no-repeat; background-size: auto 900px;}
-body.programming #p         {background: transparent url("/ui2019/bg-retina.png") -532px -48px no-repeat; background-size: auto 900px;}
-body.xml #x					{background: transparent url("/ui2019/bg-retina.png") -730px -48px no-repeat; background-size: auto 900px;}
-body.webbuilding #w		    {background: transparent url("/ui2019/bg-retina.png") -843px -48px no-repeat; background-size: auto 900px;}
-body.reference #r		    {background: transparent url("/ui2019/bg-retina.png") -1040px -48px no-repeat; background-size: auto 900px;}
-
-}
 
 
 
@@ -1303,52 +1208,6 @@ ul.prenext a	{
 
 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) {
-
-div#tpn, div#bpn, div#tpn ul.prenext, div#bpn ul.prenext, div#tpn ul.prenext li, div#bpn ul.prenext li	{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	}
-
-div#tpn, div#bpn	{
-	height:24px;
-	width:212px;
-	background: transparent;
-	}
-
-ul.prenext	{
-	background: transparent url("./bg-retina.png") 0 -600px no-repeat;
-    background-size: auto 900px;
-	position:relative;
-    height:24px;
-	width:212px;
-	}
-
-ul.prenext li	{
-	list-style:none;
-	position:absolute;
-	top:0px;
-	overflow:hidden;
-    display:block;
-	height:24px;
-	}
-
-ul.prenext a	{
-	text-indent: -9999px;
-	text-decoration: none;
-    display:block;
-	height:24px;
-	}
-
-.pre	{left:0; width:94px;}
-.next	{left:118px; width:94px;}
-
-.pre a:hover	{background: transparent url("./bg-retina.png") 0px -650px no-repeat; background-size: auto 900px;}
-.next a:hover	{background: transparent url("./bg-retina.png") -118px -650px no-repeat; background-size: auto 900px;}
-
-}
 
 
 
@@ -1402,21 +1261,7 @@ div.prenextnav-ref.pre a:hover		{background: transparent url(./bg.png) -300px -6
 div.prenextnav-ref.next a:hover		{background: transparent url(./bg.png) -418px -650px no-repeat;}
 div.prenextnav-ref.toref a:hover	{background: transparent url(./bg.png) -536px -650px no-repeat;}
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) {
 
-div.prenextnav-ref ul.prenext	{
-	background: transparent url("/ui2019/bg-retina.png") -300px -600px no-repeat;
-	position:relative;
-    height:24px;
-	width:371px;
-    background-size: auto 900px;
-	}
-
-div.prenextnav-ref .pre a:hover		{background: transparent url(./bg-retina.png) -300px -650px no-repeat; background-size: auto 900px;}
-div.prenextnav-ref .next a:hover	{background: transparent url(./bg-retina.png) -418px -650px no-repeat; background-size: auto 900px;}
-div.prenextnav-ref .toref a:hover	{background: transparent url(./bg-retina.png) -536px -650px no-repeat; background-size: auto 900px;}
-}
 
 
 
@@ -1478,45 +1323,8 @@ div#sidebar div#sidebar_zzs:first-child {
 
 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) {
 
-div#course, div#selected, div#tools, div#sidebar_zzs {
-	margin:0;
-    border: 0px solid blue;
-	}
 
-div#course {
-	background:transparent url("./bg-retina.png") 0 -800px no-repeat;
-	padding:66px 0 10px 0;
-    background-size: auto 900px;
-	}
-
-div#selected {
-	background:transparent url("./bg-retina.png") -200px -800px no-repeat;
-	padding:45px 0 10px 0;
-    background-size: auto 900px;
-	}
-
-div#tools {
-	background:transparent url("./bg-retina.png") -400px -800px no-repeat;
-	padding:79px 0 10px 22px;
-    background-size: auto 900px;
-	}
-
-div#sidebar_zzs {
-	background:transparent url("./bg-retina.png") -600px -800px no-repeat;
-	padding:66px 0 10px 10px;
-    background-size: auto 900px;
-	}
-
-div#sidebar div#sidebar_zzs:first-child {
-	background:transparent url("./bg-retina.png") -800px -800px no-repeat;
-	padding:66px 0 10px 10px;
-    background-size: auto 900px;
-	}
-
-}
 	/* ----------------------------------- sidebar ----------------------------------- */
 
 
@@ -1596,82 +1404,6 @@ div#tools h5#tools_tutorial a	{
 div#tools h5#tools_tutorial a:hover	{
 	background: transparent url(./bg.png) -600px -464px no-repeat;
 	}
-
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) {
-
-div#tools h5	{
-	margin: 0 0 12px 0;
-	padding: 0;
-	overflow:hidden;
-	}
-
-div#tools h5#tools_reference, div#tools h5#tools_example, div#tools h5#tools_quiz, div#tools h5#tools_search, div#tools h5#tools_professional	{
-	text-indent: -9999px;
-	width: 136px;
-	height: 64px;
-	}
-
-div#tools h5#tools_reference a, div#tools h5#tools_example a, div#tools h5#tools_quiz a, div#tools h5#tools_search a, div#tools h5#tools_professional a	{
-	display: block;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	text-decoration: none;
-	}
-
-div#tools h5#tools_reference a	{
-	background: transparent url("./bg-retina.png") 0 -400px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_reference a:hover	{
-	background: transparent url("./bg-retina.png") 0 -464px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_example a	{
-	background: transparent url("./bg-retina.png") -150px -400px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_example a:hover	{
-	background: transparent url("./bg-retina.png") -150px -464px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_quiz a	{
-	background: transparent url("./bg-retina.png") -300px -400px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_quiz a:hover	{
-	background: transparent url("./bg-retina.png") -300px -464px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_professional a	{
-	background: transparent url(./bg-retina.png) -450px -400px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_professional a:hover	{
-	background: transparent url(./bg-retina.png) -450px -464px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_tutorial a	{
-	background: transparent url(./bg-retina.png) -600px -400px no-repeat;
-    background-size: auto 900px;
-	}
-
-div#tools h5#tools_tutorial a:hover	{
-	background: transparent url(./bg-retina.png) -600px -464px no-repeat;
-    background-size: auto 900px;
-	}
-}
 
 
 
@@ -1926,99 +1658,99 @@ div#navsecond li.currentLink a:link, div#navsecond li.currentLink a:visited	{
 
 
 div#maincontent div.css-100 {
-width: 100%;
-line-height: 80px;
-text-align: center;
-color: white;
-border: 10px solid;
-box-sizing: border-box;
-font-size:120%;
-font-weight:bold;
-font-family:Consolas, 'Courier New', Courier, monospace;
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	border: 10px solid;
+	box-sizing: border-box;
+	font-size:120%;
+	font-weight:bold;
+	font-family:Consolas, 'Courier New', Courier, monospace;
 }
 
 div#maincontent div.css-50 {
-float: left;
-width: 50%;
-line-height: 80px;
-text-align: center;
-color: white;
-border: 10px solid #fdfcf8;
-box-sizing: border-box;
-font-size:120%;
-font-weight:bold;
-font-family:Consolas, 'Courier New', Courier, monospace;
+	float: left;
+	width: 50%;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	border: 10px solid #fdfcf8;
+	box-sizing: border-box;
+	font-size:120%;
+	font-weight:bold;
+	font-family:Consolas, 'Courier New', Courier, monospace;
 }
 
 div#maincontent div.css-25 {
-float: left;
-width: 25%;
-padding:50px;
-margin: 20px 0;
-text-align: center;
-box-sizing: border-box;
-font-size:100%;
-font-weight:bold;
-font-family:Consolas, 'Courier New', Courier, monospace;
+	float: left;
+	width: 25%;
+	padding:50px;
+	margin: 20px 0;
+	text-align: center;
+	box-sizing: border-box;
+	font-size:100%;
+	font-weight:bold;
+	font-family:Consolas, 'Courier New', Courier, monospace;
 }
 
 div#maincontent div.w3-50 {
-float: left;
-width: 50%;
-line-height: 120px;
-text-align: center;
-color: black;
-border: 0px solid #fdfcf8;
-box-sizing: border-box;
-margin-top: 15px;
-margin-bottom: 15px;
+	float: left;
+	width: 50%;
+	line-height: 120px;
+	text-align: center;
+	color: black;
+	border: 0px solid #fdfcf8;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 div#maincontent div.w3-33 {
-float: left;
-width: 33.33%;
-text-align: center;
-color: black;
-border: 0px solid #fdfcf8;
-box-sizing: border-box;
-margin-top: 15px;
-margin-bottom: 15px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	color: black;
+	border: 0px solid #fdfcf8;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 div#maincontent div.css-bg {
-background: transparent url("/i/css/bg_transparent.gif") top left repeat;
+	background: transparent url("/i/css/bg_transparent.gif") top left repeat;
 }
 
 .css-border {
-border:3px solid #ba3537;
+	border:3px solid #ba3537;
 }
 
 div#maincontent div.p100 {
-width: 100%;
-box-sizing: border-box;
-}
+	width: 100%;
+	box-sizing: border-box;
+	}
 
 div#maincontent div.p50 {
-width: 50%;
-box-sizing: border-box;
-float: left;
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
 }
 
 div#maincontent div.p33 {
-width: 33%;
-box-sizing: border-box;
-float: left;
+	width: 33%;
+	box-sizing: border-box;
+	float: left;
 }
 
 div#maincontent div.p25 {
-width: 25%;
-box-sizing: border-box;
-float: left;
+	width: 25%;
+	box-sizing: border-box;
+	float: left;
 }
 
 div#maincontent img.img-center {
-display: block;
-margin: 15px auto 0 auto;
+	display: block;
+	margin: 15px auto 0 auto;
 }
 
 
