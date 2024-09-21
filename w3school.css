@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+
+
+
 *
 		{
 		margin:0;
@@ -208,7 +211,8 @@ div#header a#logo:link, div#header a#logo:visited
 div#header a#logo:hover
 		{
 		background: transparent url(./bg.png) 0 -250px no-repeat;
-		} 
+		}
+
 
 
 
@@ -493,9 +497,6 @@ body.programming #p         {background: transparent url(/ui2019/bg.png) -532px 
 body.xml #x					{background: transparent url(/ui2019/bg.png) -730px -48px no-repeat;}
 body.webbuilding #w		    {background: transparent url(/ui2019/bg.png) -843px -48px no-repeat;}
 body.reference #r		    {background: transparent url(/ui2019/bg.png) -1040px -48px no-repeat;}
-
-
-
 
 
 
@@ -807,343 +808,6 @@ div.panel {
 }
 
 
-
-/* ----------------------------------- 表格 ----------------------------------- */
-
-table.dataintable {
-	margin-top:15px;
-	border-collapse:collapse;
-	border:1px solid #aaa;
-	width:100%;
-	}
-
-table.dataintable th {
-	vertical-align:baseline;
-	padding:10px 10px 10px 10px;
-	background-color:#3F3F3F;
-	border:1px solid #3F3F3F;
-	text-align:left;
-	color:#fff;
-	}
-
-table.dataintable td {
-	vertical-align:text-top;
-	padding:9px 9px 9px 9px;
-	border:1px solid #aaa;
-	}
-
-table.dataintable tr:nth-child(odd) {
-	background-color:#F5F5F5;
-}
-
-table.dataintable tr:nth-child(even) {
-	background-color:#fff;
-}
-
-table.dataintable pre {
-	width:auto;
-	margin:0;
-	padding:0;
-	border:0;
-	background-color:transparent;
-	}
-
-table.dataintable p {margin:0 0 2px 0;}
-
-div#maincontent table.dataintable ul, div#maincontent table.dataintable li {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	}
-
-table.dataintable td em
-		{
-		color:#0000ff;
-		font-weight:normal;
-		}
-	
-table.dataintable .table_value {color:#0F93D2;}
-
-.no_wrap {white-space:nowrap;}
-
-div#maincontent table.dataintable ul.listintable {
-	margin:20px;
-	padding:0;
-	}
-
-div#maincontent table.dataintable ul.listintable  li{
-	list-style-type:disc;
-	}
-
-div#maincontent table.dataintable p {
-	line-height: 130%;
-}
-
-
-
-
-	/* ----------------------------------- definition-usage ----------------------------------- */
-
-table.definition-usage {
-	margin-top:15px;
-	border-collapse:collapse;
-	box-sizing: border-box;
-	width: 100%;
-}
-
-table.definition-usage tr:nth-child(odd) {
-	background-color:#fff;
-}
-
-table.definition-usage tr:nth-child(even) {
-	background-color:#F5F5F5;
-}
-
-table.definition-usage td, table.definition-usage th {
-	padding: 15px;
-	line-height: 1.5;
-	border:1px solid #ddd;
-}
-
-table.definition-usage td {
-	vertical-align:top;
-}
-
-table.definition-usage .cell-dark {
-	background-color: #3f3f3f;
-	color: #fff;
-}
-
-div#maincontent table.definition-usage h3 {
-	font-size: 14px;
-}
-	/* ----------------------------------- browser-support ----------------------------------- */
-
-table.browser-support {
-	margin-top:15px;
-	border-collapse:collapse;
-	box-sizing: border-box;
-	width: 100%;
-}
-
-table.browser-support tr:nth-child(odd) {
-	background-color:#fff;
-}
-
-table.browser-support tr:nth-child(even) {
-	background-color:#F5F5F5;
-}
-
-table.browser-support tr:first-child {
-	height: 86px;
-	font-weight: bold;
-	padding: 0;
-}
-
-table.browser-support td, table.browser-support th {
-	width:86px;
-	padding: 15px;
-	line-height: 1.5;
-	vertical-align: middle;
-	border:1px solid #ddd;
-	text-align:center;
-}
-
-table.browser-support tr:first-child th {
-	background-repeat: no-repeat;
-	background-position: center;
-	text-indent: -9999px;
-}
-
-table.browser-support tr:first-child th.bsTh {
-	text-indent: 0;
-}
-
-table.browser-support td.bsTag {
-	font-size: 18px;
-	font-weight: bold;
-	text-align: left;
-}
-
-table.browser-support td.deprecated {
-	color: #e80000;
-}
-
-table.browser-support .bsIE {
-	background-image: url('/ui2017/compatible_ie.png');
-}
-
-table.browser-support .bsEdge {
-	background-image: url('/ui2017/compatible_edge.png');
-}
-
-table.browser-support .bsFirefox {
-	background-image: url('/ui2017/compatible_firefox.png');
-}
-
-table.browser-support .bsChrome {
-	background-image: url('/ui2017/compatible_chrome.png');
-}
-
-table.browser-support .bsSafari {
-	background-image: url('/ui2017/compatible_safari.png');
-}
-
-table.browser-support .bsOpera {
-	background-image: url('/ui2017/compatible_opera.png');
-}
-
-table.browser-support .bsNoIE {
-	background-image: url('/ui2017/incompatible_ie.png');
-}
-
-table.browser-support .bsNoFirefox {
-	background-image: url('/ui2017/incompatible_firefox.png');
-}
-
-table.browser-support .bsNoChrome {
-	background-image: url('/ui2017/incompatible_chrome.png');
-}
-
-table.browser-support .bsNoSafari {
-	background-image: url('/ui2017/incompatible_safari.png');
-}
-
-table.browser-support .bsNoOpera {
-	background-image: url('/ui2017/incompatible_opera.png');
-}
-
-
-
-
-
-	/* ----------------------------------- browsersupport ----------------------------------- */
-table.browsersupport td
-	{
-		text-align:center;
-	}
-
-#jsref table.browsersupport td, #tags table.browsersupport td, #cssref table.browsersupport td
-	{
-		width:20%;
-	}
-
-#jsref table.browsersupport th, #tags table.browsersupport th, #cssref table.browsersupport th
-	{
-		color:#333333;
-		font-weight:400;
-	}
-
-#jsref table.browsersupport, #tags table.browsersupport, #cssref table.browsersupport
-	{
-		width:70%;
-	}
-
-table.browsersupport .bsIE {
-	background-image: url('/ui2017/compatible_ie.png');
-}
-
-table.browsersupport .bsFirefox {
-	background-image: url('/ui2017/compatible_firefox.png');
-}
-
-table.browsersupport .bsChrome {
-	background-image: url('/ui2017/compatible_chrome.png');
-}
-
-table.browsersupport .bsSafari {
-	background-image: url('/ui2017/compatible_safari.png');
-}
-
-table.browsersupport .bsOpera {
-	background-image: url('/ui2017/compatible_opera.png');
-}
-
-table.browsersupport .bsNoIE {
-	background-image: url('/ui2017/incompatible_ie.png');
-}
-
-table.browsersupport .bsNoFirefox {
-	background-image: url('/ui2017/incompatible_firefox.png');
-}
-
-table.browsersupport .bsNoChrome {
-	background-image: url('/ui2017/incompatible_chrome.png');
-}
-
-table.browsersupport .bsNoSafari {
-	background-image: url('/ui2017/incompatible_safari.png');
-}
-
-table.browsersupport .bsNoOpera {
-	background-image: url('/ui2017/incompatible_opera.png');
-}
-
-table.browsersupport .bsPreIE {
-	background-image: url('/i/precompatible_ie.gif');
-}
-
-table.browsersupport .bsPreFirefox {
-	background-image: url('/i/precompatible_firefox.gif');
-}
-
-table.browsersupport .bsPreChrome {
-	background-image: url('/i/precompatible_chrome.gif');
-}
-
-table.browsersupport .bsPreSafari {
-	background-image: url('/i/precompatible_safari.gif');
-}
-
-table.browsersupport .bsPreOpera {
-	background-image: url('/i/precompatible_opera.gif');
-}
-
-table.browsersupport {
-	margin-top:15px;
-	border-collapse:collapse;
-}
-
-table.browsersupport td {
-	padding: 0;
-	height: 86px;
-	width:86px;
-	vertical-align: middle;
-	background:#fdfcf8 no-repeat center;
-	border:1px solid #ddd;
-}
-
-table.browsersupport .browser_version td {
-	padding: 0;
-	height: 36px;
-	vertical-align: middle;
-	text-align: center;
-	background-color:#F5F5F5;
-	border:1px solid #ddd;
-}
-
-table.browsersupport td.bsProperty
-		{
-		font-family: courier new;
-		white-space: nowrap;
-		width:20%;
-		}
-
-table.browsersupport th {
-	padding: 0;
-
-	height: 36px;
-	vertical-align: middle;
-	text-align: center;
-	background-color:#F5F5F5;
-	border:1px solid #ddd;
-	
-}
-
-
-
-
-
 	/* ----------------------------------- prenextnav ----------------------------------- */
 
 div#maincontent div.prenextnav, div#maincontent div.prenextnav ul.prenext, div#maincontent div.prenextnav ul.prenext li	{
@@ -1196,15 +860,6 @@ ul.prenext a	{
     display:block;
 	height:24px;
 	}
-
-.pre	{left:0; width:94px;}
-.next	{left:118px; width:94px;}
-
-.pre a:hover	{background: transparent url(/ui2019/bg.png) 0px -650px no-repeat;}
-.next a:hover	{background: transparent url(/ui2019/bg.png) -118px -650px no-repeat;}
-
-
-
 
 
 
@@ -1262,29 +917,6 @@ div.prenextnav-ref.toref a:hover	{background: transparent url(./bg.png) -536px -
 
 
 
-	/* ----------------------------------- prenextnav_ref ----------------------------------- */
-
-.btn-toref a {
-	display: inline-block;
-	padding: 8px 16px;
-	vertical-align: middle;
-	overflow: hidden;
-	text-align: center;
-	white-space: nowrap;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-	color: #000;
-}
-
-.btn-toref a:hover {
-	background-color: #f1f1f1;
-}
-
-
-.btn-toref a:before {
-	content: "❮ ";
-}
-
 	/* ----------------------------------- navsecond & sidebar ----------------------------------- */
 
 
@@ -1317,7 +949,6 @@ div#sidebar div#sidebar_zzs:first-child {
 	background:transparent url(./bg.png) -800px -800px no-repeat;
 	padding:66px 0 10px 10px;
 	}
-
 
 
 
@@ -1401,6 +1032,8 @@ div#tools h5#tools_tutorial a	{
 div#tools h5#tools_tutorial a:hover	{
 	background: transparent url(./bg.png) -600px -464px no-repeat;
 	}
+
+
 
 
 
@@ -1677,7 +1310,7 @@ div#maincontent div.css-50 {
 	font-size:120%;
 	font-weight:bold;
 	font-family:Consolas, 'Courier New', Courier, monospace;
-}
+	}
 
 div#maincontent div.css-25 {
 	float: left;
@@ -1714,9 +1347,6 @@ div#maincontent div.w3-33 {
 	margin-bottom: 15px;
 }
 
-div#maincontent div.css-bg {
-	background: transparent url("/i/css/bg_transparent.gif") top left repeat;
-}
 
 .css-border {
 	border:3px solid #ba3537;
@@ -1725,7 +1355,7 @@ div#maincontent div.css-bg {
 div#maincontent div.p100 {
 	width: 100%;
 	box-sizing: border-box;
-	}
+}
 
 div#maincontent div.p50 {
 	width: 50%;
@@ -1737,7 +1367,7 @@ div#maincontent div.p33 {
 	width: 33%;
 	box-sizing: border-box;
 	float: left;
-}
+	}
 
 div#maincontent div.p25 {
 	width: 25%;
@@ -1797,45 +1427,10 @@ div#maincontent img.img-center {
 
 
 
-pre
-		{
-		width:765px;
-		margin: 15px 0 0 0;
-		padding: 20px;
-		border: 0;
-		border: 1px solid #ddd;
-		background: #fffefc;
-		line-height:1.5;
-		font-family:Consolas, '微软雅黑', 'Source Code Pro', Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace, PingFangSC-Regular, '宋体';
-		overflow-x:auto;
-		}
-
-pre[class*="language-"] i {font-style: italic;}
-
-pre, div#maincontent input, div#maincontent select, div#maincontent textarea
-		{
-		font-family:Consolas, '微软雅黑', 'Source Code Pro', Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace, PingFangSC-Regular, '宋体';
-		}
-
-pre.cmdline
-		{
-		color: #ffffff;
-		background: #000000;
-		border: 0;
-		font-size: 14px;
-		}
-
 p mark
 		{
 		color:#dd0000;
 		background-color:transparenta;
-		}
-
-pre mark
-		{
-		font-weight: bold;
-		background-color: transparent;
-		color: inherit;
 		}
 
 table.definition-usage .cell-dark mark
@@ -1896,22 +1491,6 @@ div.tip
 div.tip:first-child
 		{
 		margin-top: 0;
-		}
-
-.html5_new_note
-		{
-		background: #ffffff url(/i/html5_new_note.png) top left no-repeat;
-		padding-left:20px;
-		}
-
-.html5_new_note span
-		{
-		color:blue;
-		}
-
-p.gototop
-		{
-		text-align:right;
 		}
 
 table.dataintable td.html5_new
